@@ -1,0 +1,41 @@
+
+#header {
+    display: flex;
+    background-color: greenyellow;
+    height: 100px;
+    margin: 5px;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#nav {
+    background-color: greenyellow;
+    margin: 5px;
+    order: 1;
+    flex: 0 1 200px;
+}
+#ads {
+    background-color: greenyellow;
+    margin: 5px;
+    order: 3;
+    flex: 0 1 200px;
+
+}
+#article {
+    background-color: greenyellow;
+    min-width: 900px;
+    height: 900px;
+    margin: 5px;
+    order: 2;
+    flex: 1;
+
+}
+#footer {
+    background-color: greenyellow;
+    margin: 5px;
+    flex: 1;
+    order: 3;
+
+}
