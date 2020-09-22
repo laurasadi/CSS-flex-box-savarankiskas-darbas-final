@@ -1,41 +1,33 @@
-
-#header {
+#konteineris{
     display: flex;
-    background-color: greenyellow;
-    height: 100px;
-    margin: 5px;
-}
-.parent {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
-#nav {
+.header{
     background-color: greenyellow;
-    margin: 5px;
-    order: 1;
-    flex: 0 1 200px;
+    width: 100%;
 }
-#ads {
-    background-color: greenyellow;
-    margin: 5px;
-    order: 3;
-    flex: 0 1 200px;
-
+.navads{
+    width: 20%;
 }
-#article {
+.nav{
     background-color: greenyellow;
-    min-width: 900px;
-    height: 900px;
-    margin: 5px;
-    order: 2;
-    flex: 1;
-
+    height: 50%;
 }
-#footer {
+.ads{
     background-color: greenyellow;
-    margin: 5px;
-    flex: 1;
-    order: 3;
-
+    height: 50%;
+}
+.articlefooter{
+    width: 80%;
+    height: 280px;
+}
+.article{
+    background-color: greenyellow;
+    height: 85%;
+    margin: 3px;
+}
+.footer{
+    background-color: greenyellow;
+    height: 15%;
+    margin: 3px;
 }
